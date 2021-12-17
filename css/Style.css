@@ -502,51 +502,6 @@ footer.footer .move-up span:hover{
     color: var(--white);
     cursor: pointer;
 }
-
-/* ---------x------- Footer ----------x---------- */
-
-/*              Viewport less then or equal to 1130px            */
-
-@media only screen and (max-width: 1130px){
-    .site-content .post-content > .post-image .post-info{
-        left: 2rem !important;
-        bottom: 1.2rem !important;
-        border-radius: 0% !important;
-    }
-
-    .site-content .sidebar .popular-post .post-info{
-        display: none !important;
-    }
-
-    footer.footer .container{
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-}
-
-/*      x       Viewport less then or equal to 1130px    x     */
-
-
-/*              Viewport less then or equal to 750px            */
-
-@media only screen and (max-width: 750px){
-    .nav .nav-menu, .nav .nav-items{
-        flex-direction: column;
-    }
-
-    .nav .toggle-collapse{
-        display: initial;
-    }
-
-    main .site-content{
-        grid-template-columns: 100%;
-    }
-
-    footer.footer .container{
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-}
 .home .home-text h1{
 	color:#ffffff;
 	font-size: 50px;
@@ -595,6 +550,52 @@ footer.footer .move-up span:hover{
 
 	}
 }
+
+/* ---------x------- Footer ----------x---------- */
+
+/*              Viewport less then or equal to 1130px            */
+
+@media only screen and (max-width: 1130px){
+    .site-content .post-content > .post-image .post-info{
+        left: 2rem !important;
+        bottom: 1.2rem !important;
+        border-radius: 0% !important;
+    }
+
+    .site-content .sidebar .popular-post .post-info{
+        display: none !important;
+    }
+
+    footer.footer .container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+/*      x       Viewport less then or equal to 1130px    x     */
+
+
+/*              Viewport less then or equal to 750px            */
+
+@media only screen and (max-width: 750px){
+    .nav .nav-menu, .nav .nav-items{
+        flex-direction: column;
+    }
+
+    .nav .toggle-collapse{
+        display: initial;
+    }
+
+    main .site-content{
+        grid-template-columns: 100%;
+    }
+
+    footer.footer .container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
+
 
 
 /*        x      Viewport less then or equal to 750px       x     */
